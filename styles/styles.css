@@ -1,6 +1,7 @@
 * {
     margin:0px;
     padding:0px;
+    box-sizing:border-box;
 }
 
 #Log-in {
@@ -10,8 +11,9 @@
 }
 header {
     height: 121px;
-    border-bottom:1px solid black;
+    
 }
+
 
 #first-id h3 {
     font-size: 25px;
@@ -24,7 +26,7 @@ header {
 }
 
 #first-id button {
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius: 10px;
     background-color: #4caf50;
     font-weight: bold;
@@ -36,4 +38,45 @@ header {
 }
 #first-id {
     float:right
+}
+
+nav {
+    background-color: darkgray;
+}
+
+
+
+
+nav #u-list {
+    list-style: none;
+    display:inline-flex;
+    text-align: center;
+}
+nav #u-list   li {
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+    margin:5px;
+    padding:7.5px;
+    height:100%;
+}
+
+
+nav #u-list li a {
+    color:white;
+    text-decoration: none;
+    height:100%;
+}
+
+#first-id button:hover {
+    transition:2s;
+background-color:black;
+border-radius: 10px;
+
+}
+
+nav #u-list li :hover {
+    transition:1s;
+    background-color:black;
+
 }
