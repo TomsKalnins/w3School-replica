@@ -1,0 +1,39 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#Log-in {
+    display: inline-block;
+    float:right;
+    height:100px;
+}
+header {
+    height: 121px;
+    border-bottom:1px solid black;
+}
+
+#first-id h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight:1;
+    display:inline-block;
+    float:centre;
+    margin:40px;
+    margin-top:80px;    
+}
+
+#first-id button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #4caf50;
+    font-weight: bold;
+    color: honeydew;
+    margin:20px;
+    font-size: 20px;
+    
+
+}
+#first-id {
+    float:right
+}
