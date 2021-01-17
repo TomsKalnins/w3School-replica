@@ -26,7 +26,6 @@ header {
 }
 
 #first-id button {
-    border: 0.5px solid black;
     border-radius: 10px;
     background-color: #4caf50;
     font-weight: bold;
@@ -41,24 +40,29 @@ header {
 }
 
 nav {
-    background-color: darkgray;
-}
+    background-color:#4caf50;
+    height:70px;
+   }
 
 
 
 
-nav #u-list {
+#u-list {
     list-style: none;
+    width:100%;
     display:inline-flex;
-    text-align: center;
+    justify-content: left;
+    align-items: center;   
+    
 }
-nav #u-list   li {
-    font-size: 17px;
+nav #u-list li {
+    
     font-weight: bold;
     color:white;
-    margin:5px;
-    padding:7.5px;
     height:100%;
+    
+   
+
 }
 
 
@@ -66,6 +70,9 @@ nav #u-list li a {
     color:white;
     text-decoration: none;
     height:100%;
+    font-family:sans-serif;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #first-id button:hover {
@@ -75,8 +82,52 @@ border-radius: 10px;
 
 }
 
-nav #u-list li :hover {
+nav #u-list li  :hover {
     transition:1s;
-    background-color:black;
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+}
+ 
 
+#nav-right {
+    float:right;
+}
+
+.fab  {
+color:black;
+font-size: 30px;
+margin:5px;
+}
+
+
+#config {
+color:black;
+font-size: 30px;
+margin:5px;
+}
+
+#nav-right .fab :hover{
+    background: black;
+    color:white;
+transition:1s;
+
+}
+
+#container {
+    display:flex;
+    height:1000px;
+    width:800px;
+}
+
+.left-box {
+    height:300px;
+    width:200x;
+    background-color: darkgrey;
+}
+
+.right-box {
+    height:300px;
+    width:200x;
+    background-color: darkgrey;
 }
