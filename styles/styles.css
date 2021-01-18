@@ -95,23 +95,26 @@ nav #u-list li  :hover {
 }
 
 .fab  {
-color:black;
+color:white;
 font-size: 30px;
-margin:5px;
+margin-left:10px;
 }
 
 
 #config {
-color:black;
+color:white;
 font-size: 30px;
-margin:5px;
+margin-left:10px;
 }
 
-#nav-right .fab :hover{
-    background: black;
-    color:white;
+#nav-right ul li :hover  {
+background-color: darkred;
 transition:1s;
 
+}
+nav #nav-right ul {
+    display:inline-flex;
+    list-style: none;
 }
 
 #container {
@@ -130,4 +133,31 @@ transition:1s;
     height:300px;
     width:200x;
     background-color: darkgrey;
+}
+
+
+.sub-menu {
+    display:none;
+}
+
+#u-list li:hover   .sub-menu {
+    transition:4s;
+    display:flex;
+    display:block;
+    background-color:yellow;
+    margin-top:15px;
+    margin-left:15px;
+    
+}
+
+#u-list li:hover   .sub-menu ul {
+    display:block;
+    margin:10px;
+    list-style: none;
+}
+
+#u-list li:hover   .sub-menu ul li {
+    width:150px;
+    border-bottom: 1px dotted white;
+    background:transparent;
 }
