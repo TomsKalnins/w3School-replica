@@ -124,12 +124,18 @@ nav #nav-right ul {
 }
 
 .left-box {
+    display:none;
+    margin:5px;
+    border:1px solid black;
+    z-index:2;
     height:300px;
     width:200x;
     background-color: darkgrey;
+    
 }
 
 .right-box {
+    display:none;
     height:300px;
     width:200x;
     background-color: darkgrey;
@@ -138,6 +144,8 @@ nav #nav-right ul {
 
 .sub-menu {
     display:none;
+    z-index:1;
+
 }
 
 #u-list li:hover   .sub-menu {
@@ -157,6 +165,7 @@ nav #nav-right ul {
 }
 
 #u-list li:hover   .sub-menu ul li {
+    height: 200px;
     width:150px;
     border-bottom: 1px dotted white;
     background:transparent;
