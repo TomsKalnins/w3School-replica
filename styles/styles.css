@@ -40,6 +40,7 @@ header {
 }
 
 nav {
+    
     background-color:#4caf50;
     height:70px;
    }
@@ -123,23 +124,7 @@ nav #nav-right ul {
     width:800px;
 }
 
-.left-box {
-    display:none;
-    margin:5px;
-    border:1px solid black;
-    z-index:2;
-    height:300px;
-    width:200x;
-    background-color: darkgrey;
-    
-}
 
-.right-box {
-    display:none;
-    height:300px;
-    width:200x;
-    background-color: darkgrey;
-}
 
 
 .sub-menu {
@@ -169,4 +154,39 @@ nav #nav-right ul {
     width:150px;
     border-bottom: 1px dotted white;
     background:transparent;
+}
+
+#container {
+    height:2000px;
+    width:100%;
+    background-color:darkgray;
+    border-top:3px solid grey;
+}
+
+#rectangle {
+    position:relative;
+    width:300px;
+    height:100%;
+    background-color:beige;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#middle-block {
+    position:relative;
+    width:100%;
+    height:500px;
+    background-color:beige;
+    margin-right:5px;
+
+}
+
+#small-block {
+    position:relative;
+    height:400px;
+    width:500px;
+    background-color:darkgrey;
+    float:right;
+    margin:20px;
+    box-shadow:5px 5px 5px grey;
 }
