@@ -4,14 +4,18 @@
     box-sizing:border-box;
 }
 
-#Log-in {
-    display: inline-block;
-    float:right;
-    height:100px;
-}
+
 header {
     height: 121px;
-    
+    width:100%;    
+}
+header h1 {
+    font-family:sans-serif;
+    font-size:40px;
+    margin-top:40px;
+    color:gray;
+    display:inline-block;
+    font-weight:bold;
 }
 
 
@@ -20,9 +24,7 @@ header {
     font-family: sans-serif;
     font-weight:1;
     display:inline-block;
-    float:centre;
-    margin:40px;
-    margin-top:80px;    
+    letter-spacing:.3em;    
 }
 
 #first-id button {
@@ -30,45 +32,44 @@ header {
     background-color: #4caf50;
     font-weight: bold;
     color: honeydew;
-    margin:20px;
     font-size: 20px;
+    border:none;
     
 
 }
 #first-id {
-    float:right
+    float:right;
+    width: 1000px;
 }
 
 nav {
     
     background-color:#4caf50;
-    height:70px;
+    height:60px;
+    width:100%;
    }
 
 
 
 
 #u-list {
+    display:inline-block;
     list-style: none;
-    width:100%;
-    display:inline-flex;
-    justify-content: left;
-    align-items: center;   
+    width:50%;
+    background-color: greenyellow;
     
 }
 nav #u-list li {
-    
+    position:relataive;
     font-weight: bold;
-    color:white;
     height:100%;
+    display:inline-block;
     
-   
-
 }
 
 
 nav #u-list li a {
-    color:white;
+    color:red;
     text-decoration: none;
     height:100%;
     font-family:sans-serif;
@@ -76,52 +77,37 @@ nav #u-list li a {
     margin-right:10px;
 }
 
-#first-id button:hover {
-    transition:2s;
-background-color:black;
-border-radius: 10px;
 
-}
-
-nav #u-list li  :hover {
-    transition:1s;
-    background-color:white;
-    color:black;
-    border-radius: 5px;
-}
  
 
 #nav-right {
-    float:right;
+float:right;
+width:50%;
+height:100%;
+display:inline-block;    
+background-color: greenyellow;
 }
 
-.fab  {
-color:white;
-font-size: 30px;
-margin-left:10px;
-}
-
-
-#config {
-color:white;
-font-size: 30px;
-margin-left:10px;
-}
-
-#nav-right ul li :hover  {
-background-color: darkred;
-transition:1s;
-
-}
-nav #nav-right ul {
-    display:inline-flex;
-    list-style: none;
-}
 
 #container {
-    display:flex;
     height:1000px;
     width:800px;
+}
+
+
+#nav-right ul li {
+    display:inline-block;
+    float:right;
+    font-size: 30px;
+    margin-top:20px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    color:black;
+}
+
+#nav-right ul li a {
+    color:black;
 }
 
 
@@ -136,7 +122,7 @@ nav #nav-right ul {
 #u-list li:hover   .sub-menu {
     transition:4s;
     display:flex;
-    display:block;
+    display:none;
     background-color:yellow;
     margin-top:15px;
     margin-left:15px;
