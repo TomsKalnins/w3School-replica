@@ -24,7 +24,8 @@ header h1 {
     font-family: sans-serif;
     font-weight:1;
     display:inline-block;
-    letter-spacing:.3em;    
+    letter-spacing:.3em;
+
 }
 
 #first-id button {
@@ -34,10 +35,16 @@ header h1 {
     color: honeydew;
     font-size: 20px;
     border:none;
+    float:right;
+    position:relative;
+    top:30px;
+    right:20px;
     
 
 }
 #first-id {
+    position:relative;
+    top:40px;
     float:right;
     width: 1000px;
 }
@@ -56,8 +63,6 @@ nav {
     display:inline-block;
     list-style: none;
     width:50%;
-    background-color: greenyellow;
-    
 }
 nav #u-list li {
     position:relataive;
@@ -69,12 +74,11 @@ nav #u-list li {
 
 
 nav #u-list li a {
-    color:red;
+    color:white;
     text-decoration: none;
-    height:100%;
     font-family:sans-serif;
-    margin-left:10px;
-    margin-right:10px;
+    margin:10px;
+
 }
 
 
@@ -85,7 +89,6 @@ float:right;
 width:50%;
 height:100%;
 display:inline-block;    
-background-color: greenyellow;
 }
 
 
@@ -93,7 +96,9 @@ background-color: greenyellow;
     height:1000px;
     width:800px;
 }
-
+#nav-right ul{
+    list-style:none;
+}
 
 #nav-right ul li {
     display:inline-block;
@@ -107,7 +112,7 @@ background-color: greenyellow;
 }
 
 #nav-right ul li a {
-    color:black;
+    color:white;
 }
 
 
@@ -118,6 +123,14 @@ background-color: greenyellow;
     z-index:1;
 
 }
+#u-list li   :hover {
+    color:black;
+}
+
+#nav-right ul li :hover {
+color: black;
+}
+
 
 #u-list li:hover   .sub-menu {
     transition:4s;
