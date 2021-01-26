@@ -3,6 +3,9 @@
     padding:0px;
     box-sizing:border-box;
 }
+body {
+    margin:0px;
+}
 
 
 header {
@@ -130,29 +133,12 @@ display:inline-block;
 color: black;
 }
 
-
-#u-list li:hover   .sub-menu {
-    transition:4s;
-    display:flex;
-    display:none;
-    background-color:yellow;
-    margin-top:15px;
-    margin-left:15px;
-    
-}
-
 #u-list li:hover   .sub-menu ul {
     display:block;
     margin:10px;
     list-style: none;
 }
 
-#u-list li:hover   .sub-menu ul li {
-    height: 200px;
-    width:150px;
-    border-bottom: 1px dotted white;
-    background:transparent;
-}
 
 #container {
     height:2000px;
